@@ -3,6 +3,9 @@ import { RouterOutlet } from '@angular/router';
 import { Amplify } from 'aws-amplify';
 import outputs from '../../amplify_outputs.json';
 import {AmplifyAuthenticatorModule} from "@aws-amplify/ui-angular";
+import {ReactiveFormsModule} from "@angular/forms";
+import {HomepageComponent} from "./components/homepage/homepage.component";
+import {SharedModule} from "./shared/shared.module";
 
 Amplify.configure(outputs);
 
@@ -11,7 +14,7 @@ Amplify.configure(outputs);
   standalone: true,
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
-    imports: [RouterOutlet, AmplifyAuthenticatorModule],
+  imports: [SharedModule, HomepageComponent],
 })
 export class AppComponent {
   title = 'GSB - Expense management';
