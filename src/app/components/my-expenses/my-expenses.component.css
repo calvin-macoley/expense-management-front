@@ -1,0 +1,22 @@
+/* Structure */
+table {
+  width: 100%;
+}
+
+.mat-mdc-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+.expenses {
+  margin-top: 1%;
+}
+
+.add-button {
+  margin-bottom: 1%;
+}
+
+.expense-id {
+  text-decoration: underline;
+  cursor: pointer;
+}
