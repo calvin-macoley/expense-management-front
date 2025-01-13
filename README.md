@@ -1,4 +1,4 @@
-## AWS Amplify Angular.js Starter Template
+## Host Angular app using CloudFront + S3 bucket
 
 This repository provides a starter template for creating applications using Angular.js and AWS Amplify, emphasizing easy setup for authentication, API, and database capabilities.
 

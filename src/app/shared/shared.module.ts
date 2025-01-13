@@ -8,6 +8,9 @@ import {MatCardModule} from "@angular/material/card";
 import {MatIconModule} from "@angular/material/icon";
 import {RouterOutlet} from "@angular/router";
 import {AmplifyAuthenticatorModule} from "@aws-amplify/ui-angular";
+import {MatToolbarModule} from "@angular/material/toolbar";
+import {MatBadgeModule} from "@angular/material/badge";
+import {MatDialog, MatDialogModule} from "@angular/material/dialog";
 
 
 
@@ -23,7 +26,10 @@ import {AmplifyAuthenticatorModule} from "@aws-amplify/ui-angular";
     MatCardModule,
     MatIconModule,
     RouterOutlet,
-    AmplifyAuthenticatorModule
+    AmplifyAuthenticatorModule,
+    MatToolbarModule,
+    MatBadgeModule,
+    MatDialogModule
   ],
   exports: [
     CommonModule,
@@ -35,7 +41,10 @@ import {AmplifyAuthenticatorModule} from "@aws-amplify/ui-angular";
     MatCardModule,
     MatIconModule,
     RouterOutlet,
-    AmplifyAuthenticatorModule
+    AmplifyAuthenticatorModule,
+    MatToolbarModule,
+    MatBadgeModule,
+    MatDialogModule
   ]
 })
 export class SharedModule { }
